@@ -93,6 +93,9 @@ persist.fuse_sdcard=true
 ro.product.device=surnia
 ro.product.model=Moto E 2015 4G
 
+# OTA
+ro.ota.manifest=http://maxicm.com/surnia/ota.xml
+
 #
 #snapdragon value add features
 #
