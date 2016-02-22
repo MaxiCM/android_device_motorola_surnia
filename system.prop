@@ -89,6 +89,10 @@ bluetooth.hfp.client=1
 #
 persist.fuse_sdcard=true
 
+# Build.prop data
+ro.product.device=surnia
+ro.product.model=Moto E 2015 4G
+
 #
 #snapdragon value add features
 #

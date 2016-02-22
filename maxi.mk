@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Release name
-PRODUCT_RELEASE_NAME := surnia
+PRODUCT_RELEASE_NAME := Moto E 2015 4G
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 540
@@ -21,13 +21,13 @@ TARGET_SCREEN_HEIGHT := 960
 
 $(call inherit-product, device/motorola/surnia/full_surnia.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common MaxiCM stuff.
+$(call inherit-product, vendor/maxi/config/common_full_phone.mk)
 
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := surnia
-PRODUCT_NAME := cm_surnia
+PRODUCT_NAME := maxi_surnia
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := surnia
 PRODUCT_MANUFACTURER := motorola
